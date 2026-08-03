@@ -12,7 +12,7 @@ A Markdown-to-HTML converter written from scratch in Python, with no external pa
 ## Usage
 
 ```bash
-python markdownparser.py
+python markdownparser.py [input.md] [output.html]
 ```
 
-The script reads `sample.md` in the current directory and writes the converted markup to `sample.html`. Both files are included in this repo so you can see the expected output.
+Defaults to reading `sample.md` and writing `sample.html` if no arguments are given. Both files are included in this repo so you can see the expected output.
